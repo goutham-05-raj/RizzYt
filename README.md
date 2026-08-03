@@ -1,9 +1,9 @@
 <div align="center">
   <img src="public/icons/icon128.png" alt="RizzYt Logo" width="128">
   
-  # RizzYt 🎬✨
+  # RizzYt - Chrome Extension 🎬
   
-  **Summarize any YouTube video instantly using AI. Download the summary as a text file.**
+  **An AI-powered Chrome Extension to summarize any YouTube video instantly.**
   
   [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
@@ -15,7 +15,7 @@
 
 RizzYt is a lightning-fast Chrome Extension that uses cutting-edge AI (Groq LLaMA 3.3 and Google Gemini) to summarize YouTube videos in seconds. It extracts transcripts, processes the context, and delivers structured summaries based on your preferred length directly within the YouTube interface.
 
-## ✨ Features
+## Features
 
 - ⚡ **Blazing Fast Summaries**: Powered by Groq (Llama 3.3 70B) for instant AI inference.
 - 🎯 **Adjustable Lengths**: Choose between Short (5 bullets), Medium (sections & takeaways), or Long (in-depth analysis).

@@ -170,7 +170,7 @@ export default function Summarizer() {
             <span className="loading-inner">
               <span className="spinner"></span> {progress || 'Processing...'}
             </span>
-          ) : '✨ Summarize'}
+          ) : 'Summarize'}
         </button>
       </div>
 

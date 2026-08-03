@@ -5,7 +5,7 @@ import History from './components/History';
 import './index.css';
 
 const TABS = [
-  { id: 'summarize', label: '✨ Summarize', icon: '✨' },
+  { id: 'summarize', label: 'Summarize', icon: '📝' },
   { id: 'history', label: '📚 History', icon: '📚' },
   { id: 'settings', label: '⚙️ Settings', icon: '⚙️' },
 ];
