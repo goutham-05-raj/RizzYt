@@ -17,7 +17,19 @@ export async function getTranscript(videoId) {
       target: { tabId: tab.id },
       world: 'MAIN',
       func: () => {
-        const player = window.ytInitialPlayerResponse;
+        // YouTube is a Single Page App. window.ytInitialPlayerResponse is ONLY for the first video loaded.
+        // For subsequent videos, we MUST query the active video player element.
+        let player = null;
+        const moviePlayer = document.getElementById('movie_player');
+        if (moviePlayer && typeof moviePlayer.getPlayerResponse === 'function') {
+          player = moviePlayer.getPlayerResponse();
+        }
+        
+        // Fallback to initial response if player API isn't ready
+        if (!player) {
+          player = window.ytInitialPlayerResponse;
+        }
+
         if (!player) return null;
 
         const details = player.videoDetails || {};
