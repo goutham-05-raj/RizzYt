@@ -5,7 +5,6 @@
   
   **Summarize any YouTube video instantly using AI. Download the summary as a text file.**
   
-  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
   [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/)
   [![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
 </div>
@@ -24,19 +23,6 @@ RizzYt is a lightning-fast Chrome Extension that uses cutting-edge AI (Groq LLaM
 - 📝 **Smart Fallbacks**: Extracts transcripts when available, and falls back to video metadata/chapters if closed captions are disabled.
 - 🔒 **100% Private**: Your API keys are stored securely on your local device via `chrome.storage.local`.
 
-## 📸 Screenshots
-
-*Note: To make these images look professional on GitHub, crop them so only the dark popup window is visible (no browser background).*
-
-<div align="center">
-  <img src="public/screenshots/1-summarize.png" alt="Summarize Tab" width="300">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="public/screenshots/2-history.png" alt="History Tab" width="300">
-  <br><br>
-  <img src="public/screenshots/3-settings.png" alt="Settings Tab" width="300">
-</div>
-
----
 
 ## 🛠️ Installation (Developer Mode)
 
@@ -92,7 +78,3 @@ The compiled extension will be output to the `dist/` directory, which you can lo
 RizzYt does not collect, store, or transmit any of your personal data. 
 - API Keys are saved locally on your device via Chrome Local Storage.
 - Summarization requests are sent directly from your browser to the chosen AI provider (Groq/Google).
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
